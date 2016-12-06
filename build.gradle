@@ -49,7 +49,6 @@ processResources {
         expand ([
             'mod_version': project.mod_version,
             'forge_version': project.forge_version,
-            'forge_versionlimit': project.forge_versionlimit,
             'minecraft_version': project.minecraft_version
         ])
     }
